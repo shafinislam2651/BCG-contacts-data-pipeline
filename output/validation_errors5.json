@@ -1,0 +1,5770 @@
+[
+  {
+    "row": 6,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 10,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 11,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 12,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 13,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 14,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 15,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 16,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 17,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 18,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 19,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 20,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 21,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 22,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 23,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 24,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 25,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 26,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 27,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 29,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 32,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 33,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 34,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 35,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 36,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 39,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 43,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 44,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 45,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 47,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 48,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 49,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 50,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 52,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 53,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 54,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 56,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 58,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 59,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 62,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 63,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 64,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 65,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 66,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 67,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 68,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 69,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 72,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 74,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 76,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 77,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 78,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 79,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 82,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 84,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 85,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 86,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 87,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 88,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 90,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 91,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 92,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 93,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 94,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 95,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 96,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 97,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 98,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 99,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 102,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 105,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 106,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 108,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 109,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 110,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 111,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 112,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 114,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 115,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 117,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 119,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 120,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 121,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 123,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 124,
+    "errors": [
+      "Invalid email format",
+      "Invalid phone in MOBILE",
+      "Invalid phone in DIRECTPHONE"
+    ]
+  },
+  {
+    "row": 125,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 126,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 127,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 129,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 130,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 131,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 132,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 133,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 134,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 135,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 136,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 137,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 138,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 139,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 140,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 144,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 146,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 148,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 149,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 151,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 152,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 153,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 154,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 156,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 158,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 159,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 160,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 161,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 162,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 163,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 164,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 165,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 166,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 167,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 168,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 169,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 170,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 171,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 172,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 174,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 175,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 176,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 178,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 180,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 181,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 183,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 184,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 185,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 188,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 189,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 191,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 192,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 193,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 194,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 195,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 196,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 197,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 198,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 199,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 200,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 201,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 203,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 204,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 205,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 206,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 207,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 208,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 209,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 210,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 211,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 212,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 213,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 214,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 215,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 216,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 218,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 219,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 220,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 221,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 222,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 223,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 224,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 225,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 226,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 227,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 228,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 229,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 230,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 231,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 232,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 233,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 234,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 235,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 236,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 237,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 238,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 240,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 241,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 242,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 243,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 244,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 245,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 246,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 247,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 248,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 249,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 250,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 251,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 252,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 253,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 254,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 255,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 256,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 257,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 258,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 259,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 260,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 261,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 262,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 263,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 264,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 265,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 267,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 268,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 269,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 270,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 271,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 272,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 273,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 275,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 276,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 277,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 278,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 279,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 280,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 281,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 282,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 283,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 284,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 285,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 286,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 287,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 289,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 290,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 291,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 292,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 293,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 294,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 295,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 296,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 297,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 298,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 299,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 300,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 302,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 303,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 304,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 305,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 306,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 307,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 309,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 310,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 311,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 312,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 313,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 314,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 315,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 316,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 317,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 318,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 319,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 320,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 321,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 322,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 323,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 324,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 325,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 326,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 327,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 328,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 329,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 331,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 332,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 333,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 334,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 335,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 336,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 337,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 338,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 339,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 340,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 341,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 342,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 344,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 345,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 346,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 347,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 348,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 349,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 350,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 351,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 352,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 353,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 354,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 355,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 356,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 357,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 359,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 360,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 361,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 362,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 363,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 364,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 365,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 366,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 367,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 368,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 369,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 370,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 371,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 372,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 373,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 374,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 375,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 377,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 378,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 379,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 380,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 381,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 382,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 383,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 384,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 385,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 386,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 387,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 388,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 389,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 390,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 391,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 392,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 393,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 394,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 395,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 396,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 397,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 398,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 399,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 400,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 401,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 402,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 403,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 404,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 405,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 406,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 407,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 408,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 409,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 410,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 411,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 412,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 413,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 414,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 415,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 416,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 418,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 419,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 420,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 422,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 423,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 424,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 425,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 426,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 427,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 428,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 429,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 430,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 431,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 432,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 433,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 434,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 435,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 436,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 437,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 438,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 439,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 440,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 441,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 442,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 443,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 444,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 445,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 446,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 447,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 448,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 449,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 450,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 451,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 452,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 453,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 454,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 455,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 456,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 457,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 458,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 459,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 460,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 461,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 462,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 463,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 464,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 465,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 466,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 467,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 468,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 469,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 470,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 471,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 472,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 473,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 474,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 475,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 476,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 477,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 478,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 479,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 480,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 481,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 482,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 483,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 484,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 485,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 486,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 487,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 488,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 489,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 490,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 491,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 492,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 493,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 494,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 495,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 496,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 497,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 498,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 499,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 500,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 501,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 502,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 503,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 504,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 505,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 506,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 507,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 508,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 509,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 510,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 511,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 512,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 513,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 514,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 516,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 517,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 518,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 519,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 520,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 521,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 522,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 523,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 524,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 525,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 526,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 527,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 528,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 529,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 530,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 531,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 532,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 533,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 534,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 535,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 537,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 538,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 539,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 540,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 541,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 542,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 543,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 544,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 545,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 546,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 547,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 548,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 549,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 550,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 551,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 552,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 553,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 554,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 555,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 556,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 557,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 558,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 559,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 560,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 562,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 563,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 564,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 565,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 566,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 567,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 568,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 569,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 570,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 572,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 573,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 574,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 575,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 576,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 577,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 578,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 579,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 580,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 581,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 582,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 583,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 584,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 585,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 586,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 587,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 588,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 589,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 590,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 592,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 593,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 594,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 595,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 596,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 597,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 598,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 599,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 600,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 601,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 602,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 603,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 604,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 605,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 606,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 607,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 608,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 609,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 611,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 612,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 613,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 614,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 615,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 616,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 617,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 618,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 619,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 620,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 621,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 624,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 626,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 627,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 629,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 630,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 632,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 633,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 635,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 636,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 638,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 639,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 640,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 641,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 642,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 643,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 644,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 646,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 647,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 648,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 649,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 650,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 654,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 655,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 657,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 660,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 665,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 666,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 667,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 668,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 669,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 670,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 672,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 673,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 674,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 678,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 680,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 681,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 683,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 684,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 685,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 687,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 693,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 694,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 696,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 704,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 705,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 706,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 707,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 708,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 709,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 711,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 712,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 713,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 714,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 716,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 720,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 721,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 723,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 724,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 725,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 727,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 729,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 730,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 732,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 733,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 739,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 742,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 743,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 744,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 745,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 746,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 747,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 748,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 749,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 750,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 751,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 752,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 754,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 755,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 761,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 763,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 771,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 772,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 775,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 777,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 780,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 781,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 787,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 788,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 792,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 794,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 795,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 796,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 797,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 802,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 804,
+    "errors": [
+      "Invalid phone in DIRECTPHONE"
+    ]
+  },
+  {
+    "row": 805,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "Invalid phone in DIRECTPHONE"
+    ]
+  },
+  {
+    "row": 806,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 810,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 812,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 813,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 814,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 815,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 820,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 821,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 823,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 825,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 827,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 828,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 829,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 830,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 832,
+    "errors": [
+      "Invalid phone in DIRECTPHONE"
+    ]
+  },
+  {
+    "row": 833,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "Invalid phone in DIRECTPHONE"
+    ]
+  },
+  {
+    "row": 835,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 836,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 837,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 839,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 843,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 844,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 849,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 852,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 858,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 863,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 865,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 866,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 867,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 870,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 872,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 881,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 884,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 885,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 886,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 889,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 891,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 893,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 895,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 897,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 898,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 901,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 903,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 904,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 905,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 908,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 916,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 918,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 919,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 920,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 924,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 925,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 926,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 927,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 928,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 931,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 934,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 935,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 936,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 937,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 938,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 939,
+    "errors": [
+      "Missing required field: FIRSTNAME",
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 940,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 941,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 945,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 946,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 947,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 948,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 950,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 951,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 952,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 953,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 955,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 956,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 957,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 958,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 962,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 963,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 964,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 965,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 966,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 967,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 968,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 969,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 970,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 971,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 972,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 975,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 976,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 977,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "No contact method: missing email and all phone numbers (mobile/direct/home)"
+    ]
+  },
+  {
+    "row": 978,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 979,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 981,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 982,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 983,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 985,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 986,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 987,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 988,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 989,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 990,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 991,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 992,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 993,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 994,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 995,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 996,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 997,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 998,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 999,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 1000,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  }
+]

@@ -1,0 +1,4241 @@
+[
+  {
+    "row": 2,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 3,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 7,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 12,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 15,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 17,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 21,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 22,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 23,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 24,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 25,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 26,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 27,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 30,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 31,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 32,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 33,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 34,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 36,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 37,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 38,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 39,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 40,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 41,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 42,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 43,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 44,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 45,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 46,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 47,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 50,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 51,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 52,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 53,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 54,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 55,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 59,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 60,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 61,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 62,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 63,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 64,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 65,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 68,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 69,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 73,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 74,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 78,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 79,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 80,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 81,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 84,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 85,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 87,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 89,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 90,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 91,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 93,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 96,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 97,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 98,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 99,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 100,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 101,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 102,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 103,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 104,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 105,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 106,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 107,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 111,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 112,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 114,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 115,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 117,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 121,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 122,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 123,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 124,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 125,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 126,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 127,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 130,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 131,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 132,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 133,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 134,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 135,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 138,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 139,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 140,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 143,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 144,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 145,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 146,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 147,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 148,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 149,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 150,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 152,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 153,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 157,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 161,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 165,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 166,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 167,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 168,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 169,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 172,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 173,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 174,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 176,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 177,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 178,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 179,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 180,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 181,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 182,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 183,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 184,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 185,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 186,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 187,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 188,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 191,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 192,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 197,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 198,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 199,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 200,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 201,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 202,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 204,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 207,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 208,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 209,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 210,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 212,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 213,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 215,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 219,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 220,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 221,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 223,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 224,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 226,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 227,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 236,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 237,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 238,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 239,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 241,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 245,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 246,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 247,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 248,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 249,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 251,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 253,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 256,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 257,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 259,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 260,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 261,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 262,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 264,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 266,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 267,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 270,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 272,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 273,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 274,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 275,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 276,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 277,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 278,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 279,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 282,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 283,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 284,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 287,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 288,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 290,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 292,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 293,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 294,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 296,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 299,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 300,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 301,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 304,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 305,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 306,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 307,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 308,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 309,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 310,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 311,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 314,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 372,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 373,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 378,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 379,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 380,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 381,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 382,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 383,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 384,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 385,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 386,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 387,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 390,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 391,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 392,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 394,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 395,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 396,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 397,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 399,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 400,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 401,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 402,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 403,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 404,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 406,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 408,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 409,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 410,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 411,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 412,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 413,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 414,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 415,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 417,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 418,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 419,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 420,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 421,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 425,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 426,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 427,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 428,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 429,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 430,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 431,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 432,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 433,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 434,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 435,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 436,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 437,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 438,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 439,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 440,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 441,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 442,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 443,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 444,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 445,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 446,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 447,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 448,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 449,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 450,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 451,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 456,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 457,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 458,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 459,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 460,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 461,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 462,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 464,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 465,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 466,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 468,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 469,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 470,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 471,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 472,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 473,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 474,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 475,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 476,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 477,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 480,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 481,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 482,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 483,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 484,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format",
+      "Invalid phone in MOBILE"
+    ]
+  },
+  {
+    "row": 485,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 486,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 487,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 488,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 491,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 492,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 493,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 494,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 495,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 497,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 498,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 499,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 500,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 505,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 506,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 507,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 508,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 510,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 511,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 512,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 513,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 514,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 515,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 516,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 517,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 518,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 519,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 520,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 521,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 522,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 523,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 524,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 525,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 527,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 528,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 529,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 530,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 531,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 534,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 535,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 536,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 538,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 540,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 541,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 542,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 543,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 545,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 546,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 547,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 548,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 549,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 552,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 553,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 554,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 555,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 556,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 557,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 558,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 559,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 560,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 561,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 562,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 565,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 566,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 569,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 571,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 572,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 573,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 574,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 575,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 576,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 577,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 578,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 579,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 580,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 582,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 583,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 584,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 585,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 586,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 587,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 588,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 589,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 590,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 591,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 592,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 594,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 595,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 597,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 599,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 600,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 602,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 603,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 604,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 605,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 606,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 607,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 608,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 609,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 610,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 611,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 612,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 613,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 614,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 616,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 618,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 619,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 620,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 622,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 623,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 624,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 625,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 628,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 629,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 630,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 631,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 632,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 634,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 636,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 643,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 645,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 647,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 648,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 650,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 651,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 652,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 653,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 654,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 655,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 656,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 657,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 658,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 661,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 662,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 663,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 664,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 665,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 666,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 667,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 668,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 669,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 670,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 671,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 672,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 673,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 674,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 675,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 676,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 677,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 678,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 679,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 680,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 681,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 682,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 683,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 688,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 689,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 691,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 692,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 693,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 694,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 695,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 697,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 698,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 703,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 704,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 705,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 706,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 707,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 708,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 710,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 711,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 713,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 714,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 715,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 716,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 717,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 718,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 719,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 720,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 721,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 722,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 723,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 724,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 726,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 727,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 728,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 729,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 730,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 731,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 732,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 733,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 734,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 735,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 736,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 738,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 740,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 741,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 742,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 743,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 744,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 745,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 747,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 748,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 749,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 750,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 751,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 752,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 753,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 756,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 757,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 758,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 759,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 760,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 762,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 763,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 764,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 765,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 766,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 768,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 770,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 776,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 778,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 779,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 780,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 782,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 783,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 784,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 785,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 787,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 791,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 793,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 794,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 797,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 798,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 802,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 804,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 805,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 809,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 810,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 811,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 814,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 815,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 816,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 817,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 819,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 820,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 821,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 822,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 823,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 824,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 827,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 828,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 831,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 832,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 833,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 835,
+    "errors": [
+      "Missing required field: LASTNAME",
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 841,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 842,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 845,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 846,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 847,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 850,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 851,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 852,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 853,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 856,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 859,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 862,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 863,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 864,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 865,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 869,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 871,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 873,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 874,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 875,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 876,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 877,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 878,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 879,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 880,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 881,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 882,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 884,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 886,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 887,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 888,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 889,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 890,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 893,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 894,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 895,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 896,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 897,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 898,
+    "errors": [
+      "Missing required field: LASTNAME"
+    ]
+  },
+  {
+    "row": 899,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 901,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 902,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 903,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 904,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 905,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 906,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 907,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 910,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 912,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 913,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 915,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 916,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 917,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 918,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 919,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 920,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 921,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 922,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 925,
+    "errors": [
+      "Missing required field: EMAIL",
+      "Invalid email format"
+    ]
+  }
+]
