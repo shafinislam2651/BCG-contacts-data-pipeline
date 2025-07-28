@@ -21,7 +21,9 @@ def validate_phone(phone):
 
 
 def main(csv_path, output_path=None):
-    df = pd.read_csv(csv_path)
+    # Detect file extension for delimiter
+    delimiter = '\t' if csv_path.endswith('.tsv') else ','
+    df = pd.read_csv(csv_path, delimiter=delimiter)
     errors = []
     for idx, row in df.iterrows():
         row_errors = []
