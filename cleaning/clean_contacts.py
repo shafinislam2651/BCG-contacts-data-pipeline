@@ -21,8 +21,69 @@ UNUSED_FIELDS = [
     "X_PHONE1", "X_PHONE2", "X_PHONE3", "X_PHONE4", "X_PHONE5", "X_TT_EXTENSION"
 ] + [f"SUB{i}" for i in range(1, 27)] + ["X_REGION"]
 
+def preserve_integer_values(df: pd.DataFrame) -> pd.DataFrame:
+    """Preserve integer values and prevent float conversion for numeric fields."""
+    logging.info("🔢 Preserving integer values...")
+    
+    # Identify numeric columns that should remain as integers
+    numeric_cols = []
+    for col in df.columns:
+        if col in ["SEQNO", "SALESNO", "COMPANY_ACCNO"] or col.startswith("SUB"):
+            numeric_cols.append(col)
+        elif df[col].dtype in ['int64', 'float64']:
+            # Check if the column contains only whole numbers
+             if df[col].notna().any():
+                if df[col].dtype == 'float64':
+                    # Check if all non-null values are whole numbers
+                    non_null_vals = df[col].dropna()
+                    if len(non_null_vals) > 0 and (non_null_vals % 1 == 0).all():
+                        numeric_cols.append(col)
+    
+    # Convert to integers where appropriate
+    for col in numeric_cols:
+        if col in df.columns:
+            try:
+                # Convert to integer, handling NaN values
+                df[col] = pd.to_numeric(df[col], errors='coerce').astype('Int64')
+                logging.info(f"✅ Preserved integer format for {col}")
+            except Exception as e:
+                logging.warning(f"⚠️ Could not convert {col} to integer: {e}")
+    
+    return df
+
+def reset_seq_numbers(df: pd.DataFrame) -> pd.DataFrame:
+    """Reset SEQ numbers to be in proper descending order (1, 2, 3, 4...)."""
+    logging.info("🔄 Resetting SEQ numbers to proper order...")
+    
+    # Reset the main SEQNO column
+    if "SEQNO" in df.columns:
+        df["SEQNO"] = range(1, len(df) + 1)
+        logging.info(f"✅ Reset SEQNO to range 1-{len(df)}")
+    
+    # Reset SUB columns if they exist and contain sequence numbers
+    sub_cols = [f"SUB{i}" for i in range(1, 27)]
+    for col in sub_cols:
+        if col in df.columns:
+            # Check if this SUB column contains sequence-like data
+            if df[col].notna().any():
+                try:
+                    # Convert to numeric and check if it looks like sequence data
+                    numeric_vals = pd.to_numeric(df[col], errors='coerce')
+                    if numeric_vals.notna().any():
+                        # Only reset if the values look like they could be sequence numbers
+                        # (i.e., they are mostly sequential or have gaps that suggest sequence data)
+                        unique_vals = numeric_vals.dropna().unique()
+                        if len(unique_vals) > 1 and max(unique_vals) <= len(df) * 2:
+                            # Reset to sequential numbers starting from 1
+                            df[col] = range(1, len(df) + 1)
+                            logging.info(f"✅ Reset {col} to sequential order")
+                except Exception as e:
+                    logging.warning(f"⚠️ Could not reset {col}: {e}")
+    
+    return df
+
 def clean_fields(df: pd.DataFrame) -> pd.DataFrame:
-    """Clean and standardize all fields in the dataframe."""
+    """Clean and standardise all fields in the dataframe."""
     logging.info(f"🧹 Cleaning {len(df)} records with {len(df.columns)} columns...")
 
     # Set unused fields to NULL if they exist
@@ -71,11 +132,23 @@ def clean_fields(df: pd.DataFrame) -> pd.DataFrame:
     # Handle boolean fields
     for col in ["ISACTIVE", "OPTOUT_EMARKETING"]:
         if col in df.columns:
-            df[col] = df[col].astype(str).str.upper().map({
-                "YES": True, "NO": False, "TRUE": True, "FALSE": False
-            }).fillna(pd.NA)
-            logging.info(f"✅ Standardized boolean field {col}")
-
+            original_count = df[col].notna().sum()
+            original_values = df[col].value_counts().head(5).to_dict()
+            
+            # Convert to string and standardize to Y/N format
+            df[col] = df[col].astype(str).str.strip().str.upper()
+            
+            # Keep only Y or N values, set everything else to null
+            df[col] = df[col].apply(lambda x: x if x in ["Y", "N"] else pd.NA)
+            
+            final_count = df[col].notna().sum()
+            y_count = (df[col] == "Y").sum()
+            n_count = (df[col] == "N").sum()
+            
+            logging.info(f"✅ Standardised boolean field {col}: {original_count} → {final_count} valid values")
+            logging.info(f"   Original values: {original_values}")
+            logging.info(f"   Final: {y_count} Y, {n_count} N, {final_count - y_count - n_count} null")
+  
     # Parse dates
     if "LAST_UPDATED" in df.columns:
         df["LAST_UPDATED"] = pd.to_datetime(df["LAST_UPDATED"], errors="coerce")
@@ -171,11 +244,18 @@ def main():
         # Deduplicate the data
         deduped_df = deduplicate_contacts(cleaned_df)
         
+        # Preserve integer values
+        deduped_df = preserve_integer_values(deduped_df)
+
+        # Reset SEQ numbers
+        deduped_df = reset_seq_numbers(deduped_df)
+        
         # Export as TSV
         output_path = "output/cleaned_contacts.tsv"
         os.makedirs("output", exist_ok=True)
         
-        deduped_df.to_csv(output_path, index=False, sep="\t")
+        # Export with integer formatting preserved
+        deduped_df.to_csv(output_path, index=False, sep="\t", float_format='%.0f')
         
         # Report final statistics
         output_size = os.path.getsize(output_path) / (1024 * 1024)  # MB
