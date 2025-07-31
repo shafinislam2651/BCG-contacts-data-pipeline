@@ -1,9 +1,9 @@
 import pandas as pd
 import os
-import glob
 import json
 import logging
 from tqdm import tqdm  # Add tqdm for progress bar
+from rapidfuzz import fuzz  # Add rapidfuzz for fuzzy matching
 
 def normalize(val):
     if pd.isna(val):
@@ -35,7 +35,8 @@ def main():
     logging.basicConfig(level=logging.INFO, format='%(message)s')
     merged_path = "output/MergedDatabase.tsv"
     errors_path = "output/validation_errors.json"
-    data_dir = "data_files"
+    # Use only 1.tsv as the auxiliary data source
+    aux_path = os.path.join("data_files", "1.tsv")
 
     # Load merged database and validation errors
     merged_df = pd.read_csv(merged_path, sep='\t', dtype=str).fillna("")
@@ -48,10 +49,11 @@ def main():
         idx = err['row'] - 1  # validation is 1-based
         incomplete_indices.add(idx)
 
-    # Load all data_files/*.tsv into a single DataFrame
-    all_files = glob.glob(os.path.join(data_dir, "*.tsv"))
-    aux_dfs = [pd.read_csv(f, sep='\t', dtype=str).fillna("") for f in all_files]
-    aux_df = pd.concat(aux_dfs, ignore_index=True) if aux_dfs else pd.DataFrame()
+    # Load only data_files/1.tsv into a DataFrame
+    if os.path.exists(aux_path):
+        aux_df = pd.read_csv(aux_path, sep='\t', dtype=str).fillna("")
+    else:
+        aux_df = pd.DataFrame()
 
     # Precompute normalized fields for aux_df
     aux_df['name_norm'] = aux_df.apply(get_name, axis=1).str.lower().str.strip()
@@ -72,7 +74,8 @@ def main():
         candidates = []
         for _, aux_row in aux_df.iterrows():
             match_count = 0
-            if name_norm and name_norm == aux_row['name_norm']:
+            # Fuzzy match for name (threshold 90)
+            if name_norm and aux_row['name_norm'] and fuzz.ratio(name_norm, aux_row['name_norm']) >= 90:
                 match_count += 1
             if number_norm and number_norm == aux_row['number_norm']:
                 match_count += 1
@@ -99,7 +102,7 @@ def main():
             changed = True
         if changed:
             updated += 1
-            logging.info(f"Row {idx+1}: filled missing fields from strong match in data_files.")
+            logging.info(f"Row {idx+1}: filled missing fields from strong match in 1.tsv.")
 
     merged_df.to_csv(merged_path, sep='\t', index=False)
     logging.info(f"Updated {updated} rows in {merged_path}.")
