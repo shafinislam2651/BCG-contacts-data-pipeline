@@ -27,6 +27,14 @@ def main(csv_path, output_path=None):
     errors = []
     for idx, row in df.iterrows():
         row_errors = []
+        # Compose full name for reporting
+        full_name = ''
+        if 'FIRSTNAME' in df.columns and 'LASTNAME' in df.columns:
+            full_name = f"{str(row.get('FIRSTNAME', '')).strip()} {str(row.get('LASTNAME', '')).strip()}".strip()
+        elif 'fullname' in df.columns:
+            full_name = str(row.get('fullname', '')).strip()
+        elif 'name' in df.columns:
+            full_name = str(row.get('name', '')).strip()
         # Check required fields
         for field in REQUIRED_FIELDS:
             if field in df.columns and (pd.isna(row[field]) or str(row[field]).strip() == ""):
@@ -51,10 +59,15 @@ def main(csv_path, output_path=None):
             has_direct = True
         if "HOMEPHONE" in df.columns and not pd.isna(row.get("HOMEPHONE", "")) and str(row.get("HOMEPHONE", "")).strip() != "":
             has_home = True
-        if not (has_email or has_mobile or has_direct or has_home):
-            row_errors.append("No contact method: missing email and all phone numbers (mobile/direct/home)")
-        if row_errors:
-            errors.append({"row": idx+1, "errors": row_errors})  # +1 for header and 0-index
+        # Only show if at least one of first, last, email, or any number exists
+        if (
+            (str(row.get('FIRSTNAME', '')).strip() or str(row.get('LASTNAME', '')).strip() or str(row.get('EMAIL', '')).strip() or str(row.get('MOBILE', '')).strip() or str(row.get('DIRECTPHONE', '')).strip() or str(row.get('HOMEPHONE', '')).strip())
+        ):
+            # Only show full name for missing email
+            if (not has_email) and full_name:
+                row_errors.append(f"Missing email for: {full_name}")
+            if row_errors:
+                errors.append({"row": idx+1, "errors": row_errors})  # +1 for header and 0-index
     print(f"Total rows: {len(df)}")
     print(f"Rows with errors: {len(errors)}")
     for err in errors:
