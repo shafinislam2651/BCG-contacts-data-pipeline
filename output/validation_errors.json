@@ -71347,10 +71347,9 @@
   {
     "row": 10529,
     "errors": [
-      "Missing required field: LASTNAME",
       "Missing required field: EMAIL",
       "Invalid email format",
-      "Missing email for: TestCompanyName nan"
+      "Missing email for: Fish Fish"
     ]
   }
 ]
