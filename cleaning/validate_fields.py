@@ -25,49 +25,74 @@ def main(csv_path, output_path=None):
     delimiter = '\t' if csv_path.endswith('.tsv') else ','
     df = pd.read_csv(csv_path, delimiter=delimiter)
     errors = []
+    # Normalize columns for case-insensitive matching
+    col_map = {col.lower(): col for col in df.columns}
+    email_col = None
+    for possible in ["email", "e-mail", "EMAIL"]:
+        if possible.lower() in col_map:
+            email_col = col_map[possible.lower()]
+            break
+    first_col = col_map.get("firstname", None)
+    last_col = col_map.get("lastname", None)
+    phone_cols = [col_map.get(f.lower(), None) for f in ["MOBILE", "DIRECTPHONE", "HOMEPHONE"] if col_map.get(f.lower(), None)]
+
     for idx, row in df.iterrows():
         row_errors = []
         # Compose full name for reporting
         full_name = ''
-        if 'FIRSTNAME' in df.columns and 'LASTNAME' in df.columns:
-            full_name = f"{str(row.get('FIRSTNAME', '')).strip()} {str(row.get('LASTNAME', '')).strip()}".strip()
-        elif 'fullname' in df.columns:
-            full_name = str(row.get('fullname', '')).strip()
-        elif 'name' in df.columns:
-            full_name = str(row.get('name', '')).strip()
+        first_val = str(row.get(first_col, '')).strip() if first_col else ''
+        last_val = str(row.get(last_col, '')).strip() if last_col else ''
+        if first_col and last_col:
+            full_name = f"{first_val} {last_val}".strip()
+        elif 'fullname' in col_map:
+            full_name = str(row.get(col_map['fullname'], '')).strip()
+        elif 'name' in col_map:
+            full_name = str(row.get(col_map['name'], '')).strip()
+
+        email_val = str(row.get(email_col, '')).strip() if email_col else ''
+        phone_vals = [str(row.get(phone_field, '')).strip() if phone_field else '' for phone_field in phone_cols]
+
+        # Check if all fields are missing or name is 'nan nan' or equivalent
+        all_missing = (
+            (first_val == '' or first_val.lower() == 'nan') and
+            (last_val == '' or last_val.lower() == 'nan') and
+            (email_val == '' or email_val.lower() == 'nan') and
+            all(pv == '' or pv.lower() == 'nan' for pv in phone_vals)
+        )
+        null_name = (full_name == '' or full_name.lower() == 'nan nan' or full_name.lower() == 'nan')
+        if all_missing or null_name:
+            continue  # skip this row
+
         # Check required fields
-        for field in REQUIRED_FIELDS:
-            if field in df.columns and (pd.isna(row[field]) or str(row[field]).strip() == ""):
-                row_errors.append(f"Missing required field: {field}")
+        if first_col and (pd.isna(row.get(first_col, '')) or first_val == ""):
+            row_errors.append("Missing FIRSTNAME")
+        if last_col and (pd.isna(row.get(last_col, '')) or last_val == ""):
+            row_errors.append("Missing LASTNAME")
+        if email_col and (pd.isna(row.get(email_col, '')) or email_val == ""):
+            row_errors.append("Missing EMAIL")
+        elif not email_col:
+            row_errors.append("Missing EMAIL column")
+
         # Check email format
-        if "EMAIL" in df.columns and not validate_email(row.get("EMAIL", "")):
+        if email_col and not pd.isna(row.get(email_col, '')) and email_val != "" and not validate_email(row.get(email_col, '')):
             row_errors.append("Invalid email format")
-        # Check phone fields format (MOBILE, DIRECTPHONE, and HOMEPHONE)
-        for phone_field in ["MOBILE", "DIRECTPHONE", "HOMEPHONE"]:
-            if phone_field in df.columns and not validate_phone(row.get(phone_field, "")):
-                row_errors.append(f"Invalid phone in {phone_field}")
-        # Check for at least one contact method: EMAIL, MOBILE, DIRECTPHONE, or HOMEPHONE
-        has_email = False
-        has_mobile = False
-        has_direct = False
-        has_home = False
-        if "EMAIL" in df.columns and not pd.isna(row.get("EMAIL", "")) and str(row.get("EMAIL", "")).strip() != "":
-            has_email = True
-        if "MOBILE" in df.columns and not pd.isna(row.get("MOBILE", "")) and str(row.get("MOBILE", "")).strip() != "":
-            has_mobile = True
-        if "DIRECTPHONE" in df.columns and not pd.isna(row.get("DIRECTPHONE", "")) and str(row.get("DIRECTPHONE", "")).strip() != "":
-            has_direct = True
-        if "HOMEPHONE" in df.columns and not pd.isna(row.get("HOMEPHONE", "")) and str(row.get("HOMEPHONE", "")).strip() != "":
-            has_home = True
-        # Only show if at least one of first, last, email, or any number exists
-        if (
-            (str(row.get('FIRSTNAME', '')).strip() or str(row.get('LASTNAME', '')).strip() or str(row.get('EMAIL', '')).strip() or str(row.get('MOBILE', '')).strip() or str(row.get('DIRECTPHONE', '')).strip() or str(row.get('HOMEPHONE', '')).strip())
-        ):
-            # Only show full name for missing email
-            if (not has_email) and full_name:
-                row_errors.append(f"Missing email for: {full_name}")
-            if row_errors:
-                errors.append({"row": idx+1, "errors": row_errors})  # +1 for header and 0-index
+
+        # Check phone fields format (MOBILE, DIRECTPHONE, HOMEPHONE)
+        phone_present = False
+        for i, phone_field in enumerate(phone_cols):
+            if phone_field:
+                phone_val = phone_vals[i]
+                if phone_val != "" and phone_val.lower() != "nan":
+                    phone_present = True
+                    if not validate_phone(phone_val):
+                        row_errors.append(f"Invalid phone in {phone_field}")
+        # If no phone number is present, report missing phone
+        if not phone_present:
+            row_errors.append("Missing phone number (MOBILE, DIRECTPHONE, or HOMEPHONE)")
+
+        # Only report errors if any required field is missing or invalid
+        if row_errors:
+            errors.append({"row": idx+1, "name": full_name, "errors": row_errors})
     print(f"Total rows: {len(df)}")
     print(f"Rows with errors: {len(errors)}")
     for err in errors:
