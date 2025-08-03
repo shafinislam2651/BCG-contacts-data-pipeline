@@ -5,34 +5,37 @@ import os
 import glob
 from typing import Optional
 
-# Configure logging with more detailed format
+# Logging 
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S'
 )
 
-# Fields to be set explicitly to NULL (dropped from use)
+# Fields to be set explicitly to NULL 
 UNUSED_FIELDS = [
     "SALUTATION", "DIRECTPHONE", "DIRECTFAX", "HOMEPHONE",
     "MSN_ID", "YAHOO_ID", "SKYPE_ID", "SYNC_CONTACTS", "LINKEDIN",
     "TWITTER", "FACEBOOK", "CAMPAIGN_WAVE_SEQNO", "LATITUDE", "LONGITUDE",
     "GEOCODE_STATUS", "X_STORE", "X_EMAIL2", "X_EMAIL3",
-    "X_PHONE1", "X_PHONE2", "X_PHONE3", "X_PHONE4", "X_PHONE5", "X_TT_EXTENSION"
-] + [f"SUB{i}" for i in range(1, 27)] + ["X_REGION"]
+    "X_PHONE1", "X_PHONE2", "X_PHONE3", "X_PHONE4", "X_PHONE5", "X_TT_EXTENSION",
+    "X_REGION"
+]
 
 def preserve_integer_values(df: pd.DataFrame) -> pd.DataFrame:
-    """Preserve integer values and prevent float conversion for numeric fields."""
+    """Preserve integer values and prevent float conversion for numeric fields, except SUB fields which are nulled."""
     logging.info("🔢 Preserving integer values...")
     
     # Identify numeric columns that should remain as integers
     numeric_cols = []
     for col in df.columns:
-        if col in ["SEQNO", "SALESNO", "COMPANY_ACCNO"] or col.startswith("SUB"):
+        if col in ["SEQNO", "SALESNO", "COMPANY_ACCNO"]:
             numeric_cols.append(col)
+        elif col.startswith("SUB"):
+            continue  
         elif df[col].dtype in ['int64', 'float64']:
             # Check if the column contains only whole numbers
-             if df[col].notna().any():
+            if df[col].notna().any():
                 if df[col].dtype == 'float64':
                     # Check if all non-null values are whole numbers
                     non_null_vals = df[col].dropna()
@@ -130,7 +133,8 @@ def clean_fields(df: pd.DataFrame) -> pd.DataFrame:
         logging.info(f"📍 Cleaned {col}")
 
     # Handle boolean fields
-    for col in ["ISACTIVE", "OPTOUT_EMARKETING"]:
+    boolean_fields = ["ISACTIVE", "OPTOUT_EMARKETING"] + [f"SUB{i}" for i in range(1, 27)]
+    for col in boolean_fields:
         if col in df.columns:
             original_count = df[col].notna().sum()
             original_values = df[col].value_counts().head(5).to_dict()
@@ -194,16 +198,35 @@ def deduplicate_contacts(df: pd.DataFrame) -> pd.DataFrame:
         if i % 1000 == 0:
             logging.info(f"🔄 Processing group {i}/{total_groups}")
             
-        merged = group.iloc[0].copy()
+        # Create a comprehensive merged record by combining all available data
+        merged = {}
+        
+        # For each column, find the best value from all duplicates
         for col in df.columns:
             if col == "DEDUP_KEY":
                 continue
-            if pd.isna(merged[col]) or merged[col] in ["", "nan", "None", "NaN"]:
-                for _, row in group.iterrows():
-                    val = row[col]
-                    if pd.notna(val) and val not in ["", "nan", "None", "NaN"]:
-                        merged[col] = val
-                        break
+                
+            # Collect all non-null values from all duplicates for this column
+            available_values = []
+            for _, row in group.iterrows():
+                val = row[col]
+                if pd.notna(val) and val not in ["", "nan", "None", "NaN"]:
+                    available_values.append(val)
+            
+            # Choose the best value based on priority:
+            # 1. First non-null value (from most recent record if sorted by LAST_UPDATED)
+            # 2. If multiple values exist, prefer the longest/most complete one
+            if available_values:
+                if len(available_values) == 1:
+                    merged[col] = available_values[0]
+                else:
+                    # If multiple values, choose the most complete one
+                    best_value = max(available_values, key=lambda x: len(str(x)) if pd.notna(x) else 0)
+                    merged[col] = best_value
+                    logging.debug(f"📝 Merged {col}: found {len(available_values)} values, chose '{best_value}'")
+            else:
+                merged[col] = pd.NA
+        
         merged_rows.append(merged)
 
     result_df = pd.DataFrame(merged_rows).drop(columns=["DEDUP_KEY"])
@@ -262,12 +285,13 @@ def main():
         logging.info(f"✅ Successfully saved {len(deduped_df)} records to: {output_path}")
         logging.info(f"📊 Output file size: {output_size:.2f} MB")
         
-        # Show sample of cleaned data
-        logging.info(f"📋 Sample of cleaned data:")
-        logging.info(f"   Columns: {list(deduped_df.columns)}")
-        logging.info(f"   First few records:")
-        for i, row in deduped_df.head(3).iterrows():
-            logging.info(f"   Record {i+1}: {dict(row.head(5))}")
+        # Show sample of cleaned data 
+        #logging.info(f"📋 Sample of cleaned data:")
+        #logging.info(f"   Columns: {list(deduped_df.columns)}")
+        #logging.info(f"   First few records:")
+        #for i, row in deduped_df.head(3).iterrows():
+            #logging.info(f"   Record {i+1}: {dict(row.head(5))}") 
+    
             
     except FileNotFoundError as e:
         logging.error(f"❌ File not found: {e}")
