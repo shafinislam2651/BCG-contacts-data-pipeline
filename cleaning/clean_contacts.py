@@ -228,19 +228,20 @@ def deduplicate_contacts(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def find_latest_csv_file(directory="data_sources"):
-    files = glob.glob(os.path.join(directory, "*.csv"))
+def find_latest_tsv_file(directory="data_sources"):
+    """Find the most recent TSV file in the specified directory."""
+    files = glob.glob(os.path.join(directory, "*.tsv"))
     if not files:
-        raise FileNotFoundError("No CSV files found in the data_sources directory.")
+        raise FileNotFoundError(f"No TSV files found in the {directory} directory.")
     latest_file = max(files, key=os.path.getmtime)
     return latest_file
 
 
 # === Main pipeline ===
 try:
-    input_path = find_latest_csv_file()
+    input_path = find_latest_tsv_file()
     logging.info(f"📥 Loading file: {input_path}")
-    df = pd.read_csv(input_path)
+    df = pd.read_csv(input_path, sep='\t')
 except Exception as e:
     logging.error(f"❌ Failed to load input file: {e}")
     raise
@@ -248,11 +249,11 @@ except Exception as e:
 cleaned_df = clean_fields(df)
 deduped_df = deduplicate_contacts(cleaned_df)
 
-# Export as CSV
-output_path = "output/cleaned_contacts.csv"
+# Export as TSV
+output_path = "output/cleaned_contacts.tsv"
 os.makedirs("output", exist_ok=True)
 try:
-    deduped_df.to_csv(output_path, index=False)
+    deduped_df.to_tsv(output_path, index=False, sep='\t')
     logging.info(f"✅ Cleaned + deduplicated data saved to: {output_path}")
 except Exception as e:
     logging.error(f"❌ Failed to save output file: {e}")
