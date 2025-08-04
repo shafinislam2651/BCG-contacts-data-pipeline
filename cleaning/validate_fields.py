@@ -1,6 +1,8 @@
 import pandas as pd
 import re
 import sys
+import os
+import json
 
 REQUIRED_FIELDS = ["FIRSTNAME", "LASTNAME", "EMAIL"]
 EMAIL_REGEX = r"[^@]+@[^@]+\.[^@]+"
@@ -20,10 +22,29 @@ def validate_phone(phone):
     return 7 <= len(digits) <= 15
 
 
-def main(csv_path, output_path=None):
-    # Detect file extension for delimiter
-    delimiter = '\t' if csv_path.endswith('.tsv') else ','
-    df = pd.read_csv(csv_path, delimiter=delimiter)
+def main():
+    """Validate the cleaned contacts TSV file"""
+    # Paths
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    input_path = os.path.join(base_dir, 'output', 'cleaned_contacts.tsv')
+    output_path = os.path.join(base_dir, 'output', 'validation_errors.json')
+    
+    # Check if input file exists
+    if not os.path.exists(input_path):
+        print(f"❌ Input file not found: {input_path}")
+        print("Please run clean_contacts.py first to generate cleaned_contacts.tsv")
+        sys.exit(1)
+    
+    print(f"📄 Validating: {input_path}")
+    
+    # Read the TSV file
+    try:
+        df = pd.read_csv(input_path, sep='\t')
+        print(f"📊 Loaded {len(df)} records with {len(df.columns)} columns")
+    except Exception as e:
+        print(f"❌ Error reading file: {e}")
+        sys.exit(1)
+    
     errors = []
     # Normalize columns for case-insensitive matching
     col_map = {col.lower(): col for col in df.columns}
@@ -93,23 +114,67 @@ def main(csv_path, output_path=None):
         # Only report errors if any required field is missing or invalid
         if row_errors:
             errors.append({"row": idx+1, "name": full_name, "errors": row_errors})
-    print(f"Total rows: {len(df)}")
-    print(f"Rows with errors: {len(errors)}")
-    for err in errors:
-        print(f"Row {err['row']}: {', '.join(err['errors'])}")
-    if not errors:
-        print("All rows passed validation.")
-    if output_path:
-        import json
+    
+    # Print validation results
+    print(f"\n📈 VALIDATION RESULTS:")
+    print(f"   Total rows: {len(df)}")
+    print(f"   Rows with errors: {len(errors)}")
+    print(f"   Success rate: {((len(df) - len(errors)) / len(df) * 100):.1f}%")
+    
+    if errors:
+        print(f"\n❌ VALIDATION ERRORS:")
+        for err in errors[:10]:  # Show first 10 errors
+            print(f"   Row {err['row']} ({err['name']}): {', '.join(err['errors'])}")
+        
+        if len(errors) > 10:
+            print(f"   ... and {len(errors) - 10} more errors")
+    else:
+        print("\n✅ All rows passed validation!")
+    
+    # Save errors to JSON file
+    try:
         with open(output_path, "w") as f:
             json.dump(errors, f, indent=2)
-        print(f"Errors exported to {output_path}")
+        print(f"\n📄 Validation report saved to: {output_path}")
+    except Exception as e:
+        print(f"❌ Error saving validation report: {e}")
+        sys.exit(1)
+        
+    # Determine if validation should be considered successful
+    # Only fail for critical issues, not data quality issues
+    critical_errors = 0
+    data_quality_errors = 0
+    
+    for error in errors:
+        for err_msg in error['errors']:
+            if any(critical in err_msg.lower() for critical in ['missing email column', 'invalid email format']):
+                critical_errors += 1
+            else:
+                data_quality_errors += 1
+    
+    if critical_errors > 0:
+        print(f"\n❌ Found {critical_errors} critical validation errors!")
+        return False
+    elif data_quality_errors > 0:
+        print(f"\n⚠️  Found {data_quality_errors} data quality issues (not critical)")
+        return True
+    else:
+        return True
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python validate_fields.py <csv_path> [output_path.json]")
+    print("🔍 CONTACT DATA VALIDATION")
+    print("=" * 40)
+    
+    try:
+        success = main()
+        
+        if success:
+            print("\n🎉 Validation completed successfully!")
+            sys.exit(0)
+        else:
+            print("\n💥 Validation failed with critical errors!")
+            sys.exit(1)
+    except Exception as e:
+        print(f"\n💥 Validation script error: {e}")
         sys.exit(1)
-    csv_path = sys.argv[1]
-    output_path = sys.argv[2] if len(sys.argv) > 2 else None
-    main(csv_path, output_path)

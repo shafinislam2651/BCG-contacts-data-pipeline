@@ -222,10 +222,18 @@ def deduplicate_contacts(df: pd.DataFrame) -> pd.DataFrame:
         
         merged_rows.append(merged)
 
-    return pd.DataFrame(merged_rows).drop(columns=["DEDUP_KEY"])
-
-
-    return df
+    # Create the deduplicated dataframe
+    deduplicated_df = pd.DataFrame(merged_rows)
+    
+    # Remove the DEDUP_KEY column if it exists
+    if "DEDUP_KEY" in deduplicated_df.columns:
+        deduplicated_df = deduplicated_df.drop(columns=["DEDUP_KEY"])
+    
+    final_count = len(deduplicated_df)
+    duplicates_removed = original_count - final_count
+    logging.info(f"✅ Deduplication complete: {original_count} → {final_count} contacts ({duplicates_removed} duplicates removed)")
+    
+    return deduplicated_df
 
 
 def find_latest_tsv_file(directory="data_sources"):
@@ -239,9 +247,18 @@ def find_latest_tsv_file(directory="data_sources"):
 
 # === Main pipeline ===
 try:
-    input_path = find_latest_tsv_file()
+    # Use the MergedDatabase.tsv file directly from output directory
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    input_path = os.path.join(base_dir, 'output', 'MergedDatabase.tsv')
+    
+    if not os.path.exists(input_path):
+        logging.error(f"❌ MergedDatabase.tsv not found at: {input_path}")
+        logging.error("Please run fill_missing_contacts.py first to generate MergedDatabase.tsv")
+        raise FileNotFoundError(f"MergedDatabase.tsv not found at {input_path}")
+    
     logging.info(f"📥 Loading file: {input_path}")
     df = pd.read_csv(input_path, sep='\t')
+    logging.info(f"📊 Loaded {len(df)} records with {len(df.columns)} columns")
 except Exception as e:
     logging.error(f"❌ Failed to load input file: {e}")
     raise
@@ -253,7 +270,7 @@ deduped_df = deduplicate_contacts(cleaned_df)
 output_path = "output/cleaned_contacts.tsv"
 os.makedirs("output", exist_ok=True)
 try:
-    deduped_df.to_tsv(output_path, index=False, sep='\t')
+    deduped_df.to_csv(output_path, index=False, sep='\t')
     logging.info(f"✅ Cleaned + deduplicated data saved to: {output_path}")
 except Exception as e:
     logging.error(f"❌ Failed to save output file: {e}")
