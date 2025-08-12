@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BCG Contacts Data Pipeline - Script Runner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', Arial, sans-serif;
+            background: #181c24;
+            color: #e0e6ef;
+            margin: 0;
+            min-height: 100vh;
+        }
+        .container {
+            background: #232837;
+            padding: 36px 32px 32px 32px;
+            border-radius: 16px;
+            box-shadow: 0 4px 32px #0006;
+            max-width: 600px;
+            margin: 48px auto;
+        }
+        h1 {
+            text-align: center;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: #7ecfff;
+            margin-bottom: 24px;
+        }
+        label, select, button {
+            font-size: 1.1rem;
+        }
+        label {
+            color: #b0b8c9;
+            font-weight: 600;
+        }
+        select {
+            background: #232837;
+            color: #e0e6ef;
+            border: 1px solid #3a4157;
+            border-radius: 6px;
+            padding: 8px 12px;
+            margin: 10px 0 20px 0;
+            width: 100%;
+        }
+        button {
+            background: linear-gradient(90deg, #7ecfff 0%, #3a8dde 100%);
+            color: #181c24;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 24px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+            margin-bottom: 16px;
+            width: 100%;
+        }
+        button:hover {
+            background: linear-gradient(90deg, #3a8dde 0%, #7ecfff 100%);
+        }
+        .script-summary {
+            background: #1a1e29;
+            border-left: 4px solid #7ecfff;
+            padding: 16px 18px;
+            border-radius: 8px;
+            margin-bottom: 24px;
+            color: #b0b8c9;
+            font-size: 1rem;
+        }
+        .output-label {
+            font-weight: bold;
+            margin-top: 20px;
+            color: #7ecfff;
+        }
+        pre {
+            background: #10131a;
+            color: #e0e6ef;
+            padding: 15px;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-size: 0.98rem;
+        }
+        .error {
+            color: #ff6b6b;
+            font-weight: bold;
+        }
+        .change-summary {
+            background: #232837;
+            border: 1px solid #3a4157;
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin-top: 18px;
+            color: #b0ffb0;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Script Runner</h1>
+    <label for="scriptSelect">Select a script to run:</label>
+    <select id="scriptSelect" onchange="showSummary()"></select>
+    <div class="script-summary" id="scriptSummary"></div>
+    <button onclick="runScript()">Run Script</button>
+    <div id="progressBar" style="display:none; margin: 24px 0;">
+        <div style="background:#232837; border-radius:8px; height:18px; width:100%; overflow:hidden;">
+            <div id="progressInner" style="height:100%; width:0%; background:linear-gradient(90deg,#7ecfff,#3a8dde); transition:width 0.3s;"></div>
+        </div>
+        <div id="progressLabel" style="text-align:center; color:#7ecfff; font-size:0.95rem; margin-top:4px;">Running...</div>
+    </div>
+    <div id="result" style="margin-top: 30px;"></div>
+    <div id="changeSummary" class="change-summary" style="display:none;"></div>
+    <div id="outputFiles" style="margin-top: 24px; display:none;">
+        <div class="output-label">Output Files:</div>
+        <div id="fileList"></div>
+        <div id="fileViewer" style="margin-top: 16px; display:none;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <div class="output-label" id="currentFileName"></div>
+                <button onclick="closeFileViewer()" style="background:#3a4157; color:#e0e6ef; border:none; padding:4px 8px; border-radius:4px; font-size:0.9rem;">Close</button>
+            </div>
+            <pre id="fileContent" style="max-height:400px; overflow-y:auto;"></pre>
+        </div>
+    </div>
+</div>
+<script>
+const SCRIPT_INFO = {
+    "clean_contacts.py": {
+        desc: "Cleans and deduplicates the merged contacts database. Outputs: <b>output/cleaned_contacts.tsv</b>.",
+        changes: ["output/cleaned_contacts.tsv"]
+    },
+    "merge_contacts_kindaworks.py": {
+        desc: "Merges Mailchimp and existing contacts. Outputs: <b>output/MergedDatabase.tsv</b>.",
+        changes: ["output/MergedDatabase.tsv"]
+    },
+    "validate_fields.py": {
+        desc: "Validates the cleaned contacts file for missing/invalid fields. Outputs: <b>output/validation_errors.json</b>.",
+        changes: ["output/validation_errors.json"]
+    },
+    "fill_missing_contacts.py": {
+        desc: "Fills missing contact info in the merged database using additional sources. May update: <b>output/MergedDatabase.tsv</b>.",
+        changes: ["output/MergedDatabase.tsv"]
+    },
+    "fill_missing_contacts_large.py": {
+        desc: "Handles large datasets to fill missing contact info. May update: <b>output/MergedDatabase.tsv</b>.",
+        changes: ["output/MergedDatabase.tsv"]
+    },
+    "run.py": {
+        desc: "Pipeline runner for cleaning scripts. May call other scripts in sequence.",
+        changes: []
+    }
+};
+
+async function fetchScripts() {
+    const res = await fetch('http://127.0.0.1:5000/scripts');
+    const data = await res.json();
+    const select = document.getElementById('scriptSelect');
+    select.innerHTML = '';
+    data.scripts.forEach(script => {
+        const opt = document.createElement('option');
+        opt.value = script;
+        opt.textContent = script;
+        select.appendChild(opt);
+    });
+    showSummary();
+}
+
+function showSummary() {
+    const select = document.getElementById('scriptSelect');
+    const script = select.value;
+    const summaryDiv = document.getElementById('scriptSummary');
+    if (SCRIPT_INFO[script]) {
+        summaryDiv.innerHTML = SCRIPT_INFO[script].desc;
+    } else {
+        summaryDiv.innerHTML = "No description available.";
+    }
+    document.getElementById('changeSummary').style.display = 'none';
+}
+
+async function runScript() {
+    const select = document.getElementById('scriptSelect');
+    const script = select.value;
+    document.getElementById('result').innerHTML = '';
+    document.getElementById('changeSummary').style.display = 'none';
+    document.getElementById('outputFiles').style.display = 'none';
+    showProgressBar();
+    const res = await fetch('http://127.0.0.1:5000/run', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ script })
+    });
+    const data = await res.json();
+    finishProgressBar();
+    let html = '';
+    if (data.error) {
+        html += `<div class='error'><b>Error:</b> ${data.error}</div>`;
+    }
+    if (data.stdout) {
+        html += `<div class='output-label'>Stdout:</div><pre>${data.stdout}</pre>`;
+    }
+    if (data.stderr) {
+        html += `<div class='output-label'>Stderr:</div><pre>${data.stderr}</pre>`;
+    }
+    if (typeof data.returncode !== 'undefined') {
+        html += `<div><b>Return code:</b> ${data.returncode}</div>`;
+    }
+    document.getElementById('result').innerHTML = html;
+    // Show change summary if available
+    if (SCRIPT_INFO[script] && SCRIPT_INFO[script].changes.length > 0) {
+        let changes = SCRIPT_INFO[script].changes.map(f => `<li>${f}</li>`).join('');
+        document.getElementById('changeSummary').innerHTML = `<b>Files changed/created:</b><ul>${changes}</ul>`;
+        document.getElementById('changeSummary').style.display = 'block';
+    }
+    // Show output files
+    await showOutputFiles();
+}
+
+async function showOutputFiles() {
+    try {
+        const res = await fetch('http://127.0.0.1:5000/output-files');
+        const data = await res.json();
+        if (data.files && data.files.length > 0) {
+            const fileList = document.getElementById('fileList');
+            fileList.innerHTML = '';
+            data.files.forEach(file => {
+                const fileDiv = document.createElement('div');
+                fileDiv.style.cssText = 'background:#1a1e29; padding:8px 12px; margin:4px 0; border-radius:4px; cursor:pointer; border:1px solid #3a4157;';
+                fileDiv.innerHTML = `📄 ${file}`;
+                fileDiv.onclick = () => viewFile(file);
+                fileList.appendChild(fileDiv);
+            });
+            document.getElementById('outputFiles').style.display = 'block';
+        }
+    } catch (e) {
+        console.error('Error fetching output files:', e);
+    }
+}
+
+async function viewFile(filename) {
+    try {
+        const res = await fetch(`http://127.0.0.1:5000/output/${filename}`);
+        const data = await res.json();
+        if (data.error) {
+            alert('Error loading file: ' + data.error);
+            return;
+        }
+        document.getElementById('currentFileName').textContent = filename;
+        document.getElementById('fileContent').textContent = data.content;
+        document.getElementById('fileViewer').style.display = 'block';
+    } catch (e) {
+        alert('Error loading file: ' + e.message);
+    }
+}
+
+function closeFileViewer() {
+    document.getElementById('fileViewer').style.display = 'none';
+}
+
+function showProgressBar() {
+    const bar = document.getElementById('progressBar');
+    const inner = document.getElementById('progressInner');
+    const label = document.getElementById('progressLabel');
+    bar.style.display = 'block';
+    inner.style.width = '0%';
+    label.textContent = 'Running...';
+    let percent = 0;
+    window.progressInterval = setInterval(() => {
+        percent += Math.random() * 10 + 5;
+        if (percent > 95) percent = 95;
+        inner.style.width = percent + '%';
+    }, 300);
+}
+
+function finishProgressBar() {
+    const inner = document.getElementById('progressInner');
+    const label = document.getElementById('progressLabel');
+    clearInterval(window.progressInterval);
+    inner.style.width = '100%';
+    label.textContent = 'Done!';
+}
+
+window.onload = fetchScripts;
+</script>
+</body>
+</html>
